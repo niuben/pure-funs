@@ -1,0 +1,22 @@
+{
+  "name": "pure-funs",
+  "version": "0.0.1",
+  "description": "an useful pure function library",
+  "main": "lib/",
+  "scripts": {    
+  },
+  "paths": {
+        
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niuben/pure-funs"
+  },
+  "keywords": [   ],
+  "dependencies": {
+  },
+  "devDependencies": {    
+  },
+  "author": "benjs",
+  "license": "ISC"
+}
