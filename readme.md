@@ -70,7 +70,7 @@ var objArr = [{index: 1}, {index: 3}, {index: 2}, {index: 0}];
 sort(objArr, "index", "asc"); //[{index: 0}, {index: 1}, {index: 2}, {index: 3}]
 ```
 
-#### cookie
+#### Cookie
 __getCookie__　　　getCookie(key)
 获得`key`的值
 ```js
@@ -140,7 +140,7 @@ __getElementByClass__　　　getElementByClass(classname)
 getElementByClass(".list") 
 ```
 
-#### duration
+#### 时间器(duration)
 获取持续的时间
 
 ```js
