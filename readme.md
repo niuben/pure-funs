@@ -1,8 +1,7 @@
-## pure=funs
+## pure-funs
 一个纯函数库
 
 ### API
-
 
 #### 曲线 (curve)
 
