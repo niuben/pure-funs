@@ -148,6 +148,15 @@ var time = duration();  //获取当前时间
 time() //返回持续的秒数;
 
 ```
+__createTimer__ createTimer(seconds)
+可暂定的计时器, 如果seconds有值则是倒计时
+```
+const timer = createTimer(15); //倒计时15秒
+timer.stop();
+timer.seconds(); //显示秒数
+```
+
+
 
 #### 数字(number)
 __isInt__　　　isInt(num)
