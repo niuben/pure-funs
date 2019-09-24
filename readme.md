@@ -70,7 +70,7 @@ var objArr = [{index: 1}, {index: 3}, {index: 2}, {index: 0}];
 sort(objArr, "index", "asc"); //[{index: 0}, {index: 1}, {index: 2}, {index: 3}]
 ```
 
-#### Cookie
+#### cookie
 __getCookie__　　　getCookie(key)
 获得`key`的值
 ```js
@@ -107,10 +107,14 @@ __getDateTime__　　　getDateTime(dateFormate, millisecond)
 * i: 一位分钟，如1;
 * S: 两位秒数, 如01;
 * s: 一位秒数，如1;
+* N: 两位毫秒数, 如10;
+* n: 一位毫秒数, 如1
 
 ```js
 getDateTime("Y-M-D H:I:S", new Date().getTime()) // 2019-04-29 14:31:41
 getDateTime("y/m/d h:i:s", new Date().getTime()) // 19/4/29 14:31:4
+
+getDateTime("y/m/d h:i:s:n", new Date().getTime()) // 19/4/29 14:31:4:9
 ```
 
 __getTime__　　　getTime(dateFormate)
@@ -123,6 +127,8 @@ __countdown__　　　countdown(dateFormate, millisecond)
 显示特定时间格式的倒计时
 ```js
 countdown("H:I:S", 20000); //00:00:20
+countdown("H:I:S:N", 999985); //00:16:39:98
+countdown("H:I:S:n", 999985); //00:16:39:9
 ```
 
 
@@ -140,7 +146,7 @@ __getElementByClass__　　　getElementByClass(classname)
 getElementByClass(".list") 
 ```
 
-#### 时间器(duration)
+#### duration
 获取持续的时间
 
 ```js
