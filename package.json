@@ -1,6 +1,6 @@
 {
   "name": "pure-funs",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "an useful pure function library",
   "main": "lib/",
   "scripts": {    
